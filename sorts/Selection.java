@@ -9,7 +9,7 @@ public class Selection {
         System.out.println(Arrays.toString(nums));
     }
 
-    public static void sort(int [] array){
+    private static void sort(int [] array){
         for (int i =0; i<array.length-1;i++){
             int min = i;
             for(int j=i+1; j<array.length;j++){
@@ -25,7 +25,7 @@ public class Selection {
         }
     }
 
-    public static void swap(int [] array, int i, int j){
+     private static void swap(int[] array, int i, int j){
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
