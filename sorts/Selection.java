@@ -1,3 +1,7 @@
+/*
+    Takes a list of integers and sorts them in ascending order
+ */
+
 package sorts;
 
 import java.util.Arrays;
